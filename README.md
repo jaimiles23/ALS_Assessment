@@ -49,3 +49,9 @@ The following 3 data sources are used:
 ## TODO:
 - Assumptions section
 - Results section
+- read files directly from url
+- email jose clarifying:
+  - preference for jupyter nb or script
+  - clarification on data corresponding to table
+  - what to do with missing data
+
