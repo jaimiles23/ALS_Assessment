@@ -53,18 +53,6 @@ pd.options.mode.chained_assignment = None  # default='warn' - disables false pos
 # Constants
 ##########
 
-## Script info
-SCRIPT_INFO = f"""This script creates solutions to the ALS Hiring Data Engineer Exercise.
-
-It creates two files:
-- {Q1_FILENAME}
-- {Q2_FILENAME}
-
-An overview of steps taken are documented on the terminal.
-
-Please note: This script may download the input data to the current working directory.
-"""
-
 ## Relevant columns in each data frame.
 COLS_DF_INFO = [
     'cons_id',
@@ -132,6 +120,18 @@ Q1_FILENAME = 'people.csv'
 ## Acquisition_facts file constants
 Q2_FILENAME = "acquisition_facts.csv"
 ACQUISITION_GROUP_VAR = ['acquired']
+
+## Script info
+SCRIPT_INFO = f"""This script creates solutions to the ALS Hiring Data Engineer Exercise.
+
+It creates two files:
+- {Q1_FILENAME}
+- {Q2_FILENAME}
+
+An overview of steps taken are documented on the terminal.
+
+Please note: This script may download the input data to the current working directory.
+"""
 
 
 ##########
