@@ -124,13 +124,13 @@ ACQUISITION_GROUP_VAR = ['acquired']
 ## Script info
 SCRIPT_INFO = f"""This script creates solutions to the ALS Hiring Data Engineer Exercise.
 
-It creates two files:
+It creates two csv files in the current working directory:
 - {Q1_FILENAME}
 - {Q2_FILENAME}
 
-An overview of steps taken are documented on the terminal.
+Steps taken are documented on the terminal during run-time.
 
-Please note: This script may download the input data to the current working directory.
+Please note: This script may also download the input data to the current working directory.
 """
 
 
@@ -162,8 +162,8 @@ def main():
     
     NOTE: Clean strings has its own section to increase clarity of output print statements
     """
-
-    print('')
+    print_header("Script info")
+    print(SCRIPT_INFO)
 
     ## Get Data
     print_header("Get Data")
