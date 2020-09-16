@@ -6,7 +6,9 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
 - [How to use](#how-to-use)
   - [Download](#download)
   - [Use etl_jupyternb.ipynb](#use-etl_jupyternbipynb)
-  - [Use etl_script.pypeople](#use-etl_scriptpypeople)
+  - [Use etl_script.py](#use-etl_scriptpy)
+    - [Install Dependencies](#install-dependencies)
+    - [Run script](#run-script)
 - [Exercise Documentation](#exercise-documentation)
   - [Questions](#questions)
     - [Question 1](#question-1)
@@ -45,7 +47,9 @@ If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipyn
 <!-- You can access the notebook online [here](https://github.com/jaimiles23/ALS_Assessment/blob/master/etl_jupyternb.ipynb) -->
 
 
-## Use etl_script.pypeople
+## Use etl_script.py
+
+### Install Dependencies
 To run this script, you must install the dependencies outlined in the requirements.txt file. I recommend using a virtual environment to manage these dependencies. Learn more [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 To run the .py script, navigate to the directory with the cloned repository and install the required dependencies using:
@@ -58,6 +62,7 @@ pip install -r requirements.txt
 deactivate
 ```
 
+### Run script
 After the dependencies have been installed, you can run the the etl_script.py from command line using:
 ```
 python3 -m etl_script.py
