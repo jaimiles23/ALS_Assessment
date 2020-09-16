@@ -26,7 +26,6 @@ git clone https://github.com/{}/ALS_Assessment.git
 
 ## Using etl_jupyternb.ipynb
 If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. 
-<!-- You can access the notebook online [here](https://github.com/jaimiles23/ALS_Assessment/blob/master/etl_jupyternb.ipynb) -->
 
 
 ## Using etl_script.py
