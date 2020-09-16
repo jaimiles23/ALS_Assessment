@@ -225,12 +225,11 @@ def main():
     df_q1[dfq1_missing_col].fillna(MISSING_FILL, inplace = True)
 
     ## Output people file
-    print(f'- Saving {Q1_FILENAME}')
+    print(f'- Saving {Q1_FILENAME}. Please be patient.')
     df_q1.to_csv( path_or_buf = Q1_FILENAME, index = False)
     print(f"- Wrote dataframe to {Q1_FILENAME}")
 
     
-
     ##### Q2: Acquisition Facts
     print_header(f"Creating {Q2_FILENAME}")
     print('- Creating acquired column')
