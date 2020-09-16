@@ -3,9 +3,8 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
 
 
 - [ALS_DataEngineer_Assessment](#als_dataengineer_assessment)
-- [Using the repo](#using-the-repo)
-  - [Download](#download)
 - [How to use](#how-to-use)
+  - [Download](#download)
   - [Jupyter Notebook](#jupyter-notebook)
   - [.py script](#py-script)
 - [Exercise Documentation](#exercise-documentation)
@@ -26,22 +25,18 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
     - [df_subs.cons_email_ids](#df_subscons_email_ids)
 
 
-# Using the repo
-This repository conducts analysis via 2 file types:
+# How to use
+This section documents how to run the ETL script. Please note: input and output data files will automatically be downloaded and saved to the working directory.
+
+This repository conducts analysis via 2 file types to show and/or perform data analysiss:
   1. **etl_jupyternb.ipynb**: a [jupyter notebooks](https://github.com/jupyter/notebook) that contains all documentation, exploratory data analysis, and produces the output files.. 
   2. **etl_script.py**: a python3 script that can be run via the terminal to produce the output files.
-
 
 ## Download 
 This repository can be downloaded from GitHub by running this command on the command line:
 ```
 git clone https://github.com/jaimiles23/ALS_Assessment.git
 ```
-
-
-# How to use
-This section documents how to run the ETL script. Please note: input and output data files will automatically be downloaded and saved to the working directory.
-
 
 ## Jupyter Notebook
 If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. You can access the notebook online [here](https://nbviewer.jupyter.org/github/jaimiles23/ALS_Assessment/blob/master/Data%20Engineer%20Exercises.ipynb)
@@ -57,8 +52,6 @@ After the dependencies have been installed, you can run the the etl_script.py fr
 ```
 python3 -m etl_script.py
 ```
-
-
 
 
 # Exercise Documentation
