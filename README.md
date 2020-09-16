@@ -1,5 +1,5 @@
 # ALS_DataEngineer_Assessment
-ALS Hiring Data Engineer Extract Transform (ETL) exercuse to manipulate and aggregate large datasets with pandas.
+ALS Hiring Data Engineer Extract Transform (ETL) exercise to manipulate and aggregate large datasets with pandas.
 
 - [ALS_DataEngineer_Assessment](#als_dataengineer_assessment)
   - [Download](#download)
