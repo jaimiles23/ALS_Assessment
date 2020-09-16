@@ -1,12 +1,12 @@
-# ALS_DataEngineer_Assessment
+# ALS DataEngineer Assessment
 ALS Hiring Data Engineer Extract Transform (ETL) exercise to manipulate and aggregate large datasets with pandas.
 
-- [ALS_DataEngineer_Assessment](#als_dataengineer_assessment)
+- [ALS DataEngineer Assessment](#als-dataengineer-assessment)
   - [Download](#download)
   - [Using etl_jupyternb.ipynb](#using-etl_jupyternbipynb)
   - [Using etl_script.py](#using-etl_scriptpy)
   - [Requirements](#requirements)
-  - [Install Dependencies](#install-dependencies)
+  - [Install dependencies](#install-dependencies)
   - [Run script](#run-script)
 
 
@@ -45,7 +45,7 @@ Python version 3.6+
 - pywrangle
 
 
-## Install Dependencies
+## Install dependencies
 To run this script, you must install the dependencies outlined in the requirements.txt file. I recommend using a virtual environment to manage these dependencies. Learn more [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 To install the dependencies with a virtual environment, navigate to the directory for the cloned repository and run 
