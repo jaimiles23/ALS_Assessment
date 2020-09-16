@@ -28,7 +28,7 @@ Main runs the following steps:
         - Group by acquired
         - write to csv
 
-Method documentation available in README.md
+Method documentation available in ETL Documentation.md
 """
 
 ##########
