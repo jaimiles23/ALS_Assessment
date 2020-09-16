@@ -34,8 +34,6 @@ This repository conducts analysis via 2 file types to show and/or perform data a
   1. **etl_jupyternb.ipynb**: a [jupyter notebooks](https://github.com/jupyter/notebook) that contains all documentation, exploratory data analysis, and produces the output files.. 
   2. **etl_script.py**: a python3 script that can be run via the terminal to produce the output files.
 
-Please note that the jupyter notebook provides additional documentation and is given preference over the python script.
-
 
 ## Download 
 This repository can be downloaded from GitHub via:
@@ -56,7 +54,7 @@ If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipyn
 To run this script, you must install the dependencies outlined in the requirements.txt file. I recommend using a virtual environment to manage these dependencies. Learn more [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 To run the .py script, navigate to the directory with the cloned repository and install the required dependencies using:
-To install the dependencies, navigate to the directory for the cloned repository and run 
+To install the dependencies with a virtual environment, navigate to the directory for the cloned repository and run 
 
 ```Windows OS
 python3 -m venv venv
@@ -67,9 +65,16 @@ deactivate
 
 ### Run script
 After the dependencies have been installed, you can run the the etl_script.py from command line using:
+
 ```
-python3 -m etl_script.py
+venv\Scripts\active
+python -m etl_script
+deactivate
 ```
+
+NOTE:
+- activate the virtual environment to use the installed libraries
+- do not include the '.py' file extension when running the script. 
 
 
 # Exercise Documentation
@@ -94,8 +99,6 @@ python3 -m etl_script.py
 | :-- | :-- | :-- |
 | acquisition_date | date | Calendar date of acquisition | 
 | acquisitions | int | Number of constituents acquired on acquisition date |
-
-
 
 
 ## Input data
