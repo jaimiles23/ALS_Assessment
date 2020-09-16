@@ -5,7 +5,7 @@ Script to run ALS_DataEngineer_Assessment exercises and produce 2 output files:
 
 Contains 3 sections:
     - Imports
-    - Constants, identified in jupyternb EDA
+    - Constants, which were previously identified as relevant in the jupyternb EDA
     - Main script
 
 Main runs the following steps:
@@ -256,7 +256,6 @@ def main():
     ## Allow user to read script notes.
     input("\n\nPress enter to exit")
 
-    pass
 
 
 if __name__ == "__main__":
