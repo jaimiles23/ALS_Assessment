@@ -64,8 +64,3 @@ venv\Scripts\active
 python etl_script.py
 deactivate
 ```
-
-NOTE:
-- Activate the virtual environment to use the installed libraries
-- Exclude the -m module command to run the script. 
-
