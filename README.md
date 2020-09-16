@@ -69,13 +69,13 @@ After the dependencies have been installed, you can run the the etl_script.py fr
 
 ```
 venv\Scripts\active
-python -m etl_script
+python etl_script.py
 deactivate
 ```
 
 NOTE:
-- activate the virtual environment to use the installed libraries
-- do not include the '.py' file extension when running the script. 
+- Activate the virtual environment to use the installed libraries
+- Exclude the -m module command to run the script. 
 
 
 # Exercise Documentation
