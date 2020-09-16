@@ -46,9 +46,16 @@ If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipyn
 
 
 ## Use etl_script.pypeople
-To run the .py script, navigate to the directory with the cloned repository and install the required dependencies
-```
+To run this script, you must install the dependencies outlined in the requirements.txt file. I recommend using a virtual environment to manage these dependencies. Learn more [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+
+To run the .py script, navigate to the directory with the cloned repository and install the required dependencies using:
+To install the dependencies, navigate to the directory for the cloned repository and run 
+
+```Windows OS
+python3 -m venv venv
+venv\scripts\activate
 pip install -r requirements.txt
+deactivate
 ```
 
 After the dependencies have been installed, you can run the the etl_script.py from command line using:
