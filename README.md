@@ -32,7 +32,7 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
 This section documents how to run the ETL script. Please note: input and output data files will automatically be downloaded and saved to the working directory.
 
 This repository conducts analysis via 2 file types to show and/or perform data analysiss:
-  1. **etl_jupyternb.ipynb**: a [jupyter notebooks](https://github.com/jupyter/notebook) that contains all documentation, exploratory data analysis, and produces the output files.. 
+  1. **etl_jupyternb.ipynb**: a [jupyter notebooks](https://github.com/jupyter/notebook) that contains all documentation, additional exploratory data analysis, and produces the output files.. 
   2. **etl_script.py**: a python3 script that can be run via the terminal to produce the output files.
 
 
