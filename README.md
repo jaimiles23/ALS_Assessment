@@ -5,8 +5,8 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
 - [ALS_DataEngineer_Assessment](#als_dataengineer_assessment)
 - [How to use](#how-to-use)
   - [Download](#download)
-  - [Jupyter Notebook](#jupyter-notebook)
-  - [.py script](#py-script)
+  - [Use etl_jupyternb.ipynb](#use-etl_jupyternbipynb)
+  - [Use etl_script.py](#use-etl_scriptpy)
 - [Exercise Documentation](#exercise-documentation)
   - [Questions](#questions)
     - [Question 1](#question-1)
@@ -33,16 +33,16 @@ This repository conducts analysis via 2 file types to show and/or perform data a
   2. **etl_script.py**: a python3 script that can be run via the terminal to produce the output files.
 
 ## Download 
-This repository can be downloaded from GitHub by running this command on the command line:
+This repository can be downloaded from GitHub via:
 ```
 git clone https://github.com/jaimiles23/ALS_Assessment.git
 ```
 
-## Jupyter Notebook
-If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. You can access the notebook online [here](https://nbviewer.jupyter.org/github/jaimiles23/ALS_Assessment/blob/master/Data%20Engineer%20Exercises.ipynb)
+## Use etl_jupyternb.ipynb
+If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. You can access the notebook online [here](https://github.com/jaimiles23/ALS_Assessment/blob/master/etl_jupyternb.ipynb)
 
 
-## .py script
+## Use etl_script.py
 To run the .py script, navigate to the directory with the cloned repository and install the required dependencies
 ```
 pip install -r requirements.txt
