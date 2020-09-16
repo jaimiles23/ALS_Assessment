@@ -7,7 +7,8 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
   - [Download](#download)
   - [Use etl_jupyternb.ipynb](#use-etl_jupyternbipynb)
   - [Use etl_script.py](#use-etl_scriptpy)
-    - [Install Dependencies](#install-dependencies)
+  - [Requirements](#requirements)
+      - [Install Dependencies](#install-dependencies)
     - [Run script](#run-script)
 - [Exercise Documentation](#exercise-documentation)
   - [Questions](#questions)
@@ -51,7 +52,20 @@ If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipyn
 ## Use etl_script.py
 _Note:_ This section assumes you are using Windows OS.
 
-### Install Dependencies
+## Requirements
+
+Python verssion 3.6+
+
+3rd party libraries documented in requirements.txt
+- numpy
+- matplotlib
+- pandas 
+- seaborn
+- missingno
+- pywrangle
+
+
+#### Install Dependencies
 To run this script, you must install the dependencies outlined in the requirements.txt file. I recommend using a virtual environment to manage these dependencies. Learn more [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 To run the .py script, navigate to the directory with the cloned repository and install the required dependencies using:
@@ -59,13 +73,13 @@ To install the dependencies with a virtual environment, navigate to the director
 
 ```
 python3 -m venv venv
-venv\scripts\activate
+venv\Scripts\activate
 pip install -r requirements.txt
 deactivate
 ```
 
 ### Run script
-After the dependencies have been installed, you can run the the etl_script.py from command line using:
+After the dependencies have been installed, you can run the the etl_script.py from the command line using:
 
 ```
 venv\Scripts\active
