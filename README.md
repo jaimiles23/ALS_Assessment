@@ -6,7 +6,7 @@ ALS Hiring Data Engineer exercises manipulating and aggregating large datasets w
 - [How to use](#how-to-use)
   - [Download](#download)
   - [Use etl_jupyternb.ipynb](#use-etl_jupyternbipynb)
-  - [Use etl_script.py](#use-etl_scriptpy)
+  - [Use etl_script.pypeople](#use-etl_scriptpypeople)
 - [Exercise Documentation](#exercise-documentation)
   - [Questions](#questions)
     - [Question 1](#question-1)
@@ -34,15 +34,18 @@ This repository conducts analysis via 2 file types to show and/or perform data a
 
 ## Download 
 This repository can be downloaded from GitHub via:
+
+**Note: removed owner name for anonymity.
 ```
-git clone https://github.com/jaimiles23/ALS_Assessment.git
+git clone https://github.com/{}/ALS_Assessment.git
 ```
 
 ## Use etl_jupyternb.ipynb
-If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. You can access the notebook online [here](https://github.com/jaimiles23/ALS_Assessment/blob/master/etl_jupyternb.ipynb)
+If you have Jupyter Notebooks installed, you can access the **etl_jupyternb.ipynb** locally. Otherwise, [NBViewer.org](http://nbviewer.org) renders a GitHub Jupyter Notebook online. 
+<!-- You can access the notebook online [here](https://github.com/jaimiles23/ALS_Assessment/blob/master/etl_jupyternb.ipynb) -->
 
 
-## Use etl_script.py
+## Use etl_script.pypeople
 To run the .py script, navigate to the directory with the cloned repository and install the required dependencies
 ```
 pip install -r requirements.txt
