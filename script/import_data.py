@@ -46,7 +46,7 @@ def load_df(filename_csv: str, url_csv: str) -> object:
     """
     file_path = f'./{filename_csv}'
     
-    print('\n', '#' * 5, filename_csv)
+    print('\n', '#' * 5, ' ',  filename_csv, sep = '')
     if os.path.isfile(file_path):
         print("Reading from working directory.")
         df = pd.read_csv(filename_csv)
