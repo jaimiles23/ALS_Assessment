@@ -8,6 +8,7 @@ ALS Hiring Data Engineer Extract Transform (ETL) exercise to manipulate and aggr
   - [Requirements](#requirements)
   - [Install dependencies](#install-dependencies)
   - [Run script](#run-script)
+- [Increasing speed](#increasing-speed)
 
 
 This repository contains two files to run the ETL exercise:
@@ -63,3 +64,10 @@ venv\Scripts\active
 python etl_script.py
 deactivate
 ```
+
+# Increasing speed
+If you would like to increase the speed of the scripts, download the following csvs and place them in the same working directory as the script:
+1. [Constituent Information](https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons.csv)
+2. [Constituent Email Addresses](https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons_email.csv)
+3. [Constituent Subscription Status](https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons_email_chapter_subscription.csv)
+
