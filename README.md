@@ -10,7 +10,7 @@ ALS Hiring Data Engineer Extract Transform (ETL) exercise to manipulate and aggr
   - [Run script](#run-script)
 
 
-There are two files to run the ETL:
+There are two files that run the ETL exercise:
   1. **etl_jupyternb.ipynb**: a [jupyter notebooks](https://github.com/jupyter/notebook) that contains all documentation, additional exploratory data analysis, and produces the output files.
   2. **etl_script.py**: python script that can be run via the terminal to produce the output files.
 
