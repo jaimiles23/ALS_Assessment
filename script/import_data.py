@@ -28,7 +28,7 @@ url_csvs = (
 )
 
 ## Csv file names
-csv_datafiles = cons_data_csvs = (
+csv_datafiles = (
     'cons.csv',      ## info
     'cons_email.csv',                      
     'cons_email_chapter_subscription.csv'   
@@ -70,7 +70,9 @@ def load_df(filename_csv: str, url_csv: str) -> object:
 
 def get_data() -> Tuple[object, object, object]:
     """Returns df_info, df_emails, df_subs, and all_cons_dfs"""
-    df_info, df_emails, df_subs = (load_df(csv_datafiles[i], url_csvs[i]) for i in range(len(csv_datafiles)))
+    df_info, df_emails, df_subs = (
+        load_df(csv_datafiles[i], url_csvs[i]) for i in range(len(csv_datafiles))
+        )
 
     print("\nLoaded all csv data.")
     return (df_info, df_emails, df_subs)
