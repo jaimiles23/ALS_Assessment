@@ -21,7 +21,7 @@ This repository can be downloaded from GitHub via:
 ```
 git clone https://github.com/{}/ALS_Assessment.git
 ```
-*Note: removed owner name for anonymity.*
+*Note: removed owner name to preserve anonymity.*
 
 
 ## Using etl_jupyternb.ipynb
